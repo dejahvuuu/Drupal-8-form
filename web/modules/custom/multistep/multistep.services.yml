@@ -1,0 +1,13 @@
+services:
+  multistep.first_step_block:
+    class: Drupal\multistep\Plugin\Config\MultistepFirstStepBlockClass
+    arguments: []
+  multistep.second_step_block:
+    class: Drupal\multistep\Plugin\Config\MultistepSecondStepBlockClass
+    arguments: []
+  multistep.third_step_block:
+    class: Drupal\multistep\Plugin\Config\MultistepThirdStepBlockClass
+    arguments: ["@messenger", "@logger.factory", "@tempstore.private"]
+  multistep.services:
+    class: Drupal\multistep\Services\MultistepServices
+    arguments: []

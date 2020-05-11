@@ -1,0 +1,6 @@
+multistep.settings:
+  title: 'Configuración Formulario Multistep'
+  route_name: multistep.settings
+  description: 'Permite establecer la configuración del formulario'
+  parent: system.admin_config_system
+  weight: 99

@@ -1,0 +1,13 @@
+{
+    "name": "multistep",
+    "type": "drupal-module",
+    "description": "Register Users Form",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/multistep",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/multistep",
+        "source": "http://cgit.drupalcode.org/multistep",
+    },
+}

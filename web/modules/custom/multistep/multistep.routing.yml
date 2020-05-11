@@ -1,0 +1,9 @@
+multistep.settings:
+  path: '/admin/config/multistep/settings'
+  defaults:
+    _form: '\Drupal\multistep\Form\MultistepSettings'
+    _title: 'Configuración Multistep Form'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE

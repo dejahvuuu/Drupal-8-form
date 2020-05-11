@@ -1,0 +1,44 @@
+multistep_firststep:
+  version: 1.x
+  version: 1.0.1
+  css:
+    theme:
+      css/multistep_firststep.css: {}
+  js:
+    js/directive/multistep_firststep.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupal.dialog.ajax
+    - core/jquery
+    - core/drupalSettings
+
+multistep_secondstep:
+  version: 1.x
+  version: 1.0.1
+  css:
+    theme:
+      css/multistep_secondstep.css: {}
+  js:
+    js/directive/multistep_secondstep.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupal.dialog.ajax
+    - core/jquery
+    - core/drupalSettings
+
+multistep_thirdstep:
+  version: 1.x
+  version: 1.0.1
+  css:
+    theme:
+      css/multistep_thirdstep.css: {}
+  js:
+    js/directive/multistep_thirdstep.js: {}
+  dependencies:
+    - core/drupal
+    - core/drupal.ajax
+    - core/drupal.dialog.ajax
+    - core/jquery
+    - core/drupalSettings

@@ -1,0 +1,67 @@
+<?php
+
+/**
+ * @file
+ * Contains multistep.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function multistep_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the multistep module.
+    case 'help.page.multistep':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Register Users Form') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function multistep_theme() {
+  return [
+    'multistep' => [
+      'render element' => 'children',
+    ],
+
+    'MultiStepFirstStepBlock' => [
+      'variables' => [
+        'config' => NULL,
+        'first_title' => NULL,
+        'first_description' => NULL,
+        'validateForm' => NULL,
+      ],
+      'template' => 'card--first-step',
+    ],
+
+    'MultiStepSecondStepBlock' => [
+      'variables' => [
+        'config' => NULL,
+        'second_title' => NULL,
+        'second_description' => NULL,
+        'validateForm' => NULL,
+      ],
+      'template' => 'card--second-step',
+    ],
+
+    'MultiStepThirdStepBlock' => [
+      'variables' => [
+        'config' => NULL,
+        'third_title' => NULL,
+        'third_description' => NULL,
+        'password' => NULL,
+        'username' => NULL,
+      ],
+      'template' => 'card--third-step',
+    ],
+
+  ];
+}

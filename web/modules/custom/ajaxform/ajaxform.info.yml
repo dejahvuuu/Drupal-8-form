@@ -1,5 +1,0 @@
-name: 'ajaxform'
-type: module
-description: 'Ajax form to register users'
-core: 8.x
-package: 'Custom'
