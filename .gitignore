@@ -4,8 +4,6 @@
 /web/core/
 /web/modules/contrib/
 /web/themes/contrib/
-/web/themes/connectorg/node_modules/
-/web/themes/connectorg/package-lock.json
 /web/profiles/contrib/
 /web/libraries/
 /web/sites/all/libraries/
